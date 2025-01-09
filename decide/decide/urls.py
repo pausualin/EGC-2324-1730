@@ -28,6 +28,6 @@ urlpatterns = [
 ] 
 
 for module in settings.MODULES:
-    urlpatterns += [
+    urlpatterns += [ 
         path('{}/'.format(module), include('{}.urls'.format(module)))
     ]
