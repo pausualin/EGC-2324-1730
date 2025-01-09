@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'gateway',
 ]
-
+ 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.BasicAuthentication',
